@@ -14,7 +14,26 @@
         <span style="display:block" class="note">It works! **Hopefully**</span>
         <textarea autofocus=true id="text" markdown="1"></textarea>
     </body>
+    <script src="script.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/12.9.0/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
 
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyCfFbUcxcR59UhvgD27mkqF1-QTUj1r00Q",
+            authDomain: "openducky.firebaseapp.com",
+            projectId: "openducky",
+            storageBucket: "openducky.firebasestorage.app",
+            messagingSenderId: "161603480207",
+            appId: "1:161603480207:web:8f80dcb6dc2e57fa20defa"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        </script>
 </html>
 
 
