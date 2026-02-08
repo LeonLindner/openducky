@@ -20,6 +20,9 @@ body {
     height: 1000rem;
     outline: none;
     border: none;
+    color: white;
+    letter-spacing: -10px;
+    line-height: -10px;
 }
 
 #logo {
