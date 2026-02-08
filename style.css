@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;     /* Firefox */
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#text {
+    resize: none;
+    width: 100%;
+    padding: 0px;
+    height: 1000rem;
+    outline: none;
+    border: none;
+}
+
+#logo {
+    width: 10%;
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
